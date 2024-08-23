@@ -1,0 +1,99 @@
+<body>
+
+  <h1> Sobre o Pitico Pet</h1>
+
+ 
+ <div> 
+        <h2> A Pitico Pet </h2>
+        <p>
+           <strong> A Pitico Pet</strong> é uma das maiores e mais renomadas pet shops
+            especializadas em produtos para animais de estimação em todo o Brasil.sss
+            Fundada em 1990, a empresa tem crescido constantemente,
+            conquistando uma clientela fiel e ampliando sua presença para além das
+            fronteiras nacionais, com uma abrangência que alcança atualmente
+            diversos países da América Latina.
+        </p>
+        
+        <p> Localizada em <strong><a href="https://maps.app.goo.gl/pyWLhvAabEpSeJSHA"> em São Paulo capital </a></strong>
+            , nossa sede central é um verdadeiro hub de
+         distribuição, de onde partem diariamente centenas de entregas para lares
+         de todo o país. Nosso compromisso com a qualidade e o bem-estar dos
+         animais é refletido em cada produto que oferecemos, garantindo a
+         satisfação e confiança dos nossos clientes
+    	</p>
+        <figure>
+            <!--Comprimir essa foto-->
+            <img src="fig/distribuicao.jpg" width="500px">
+           
+            <figcaption> Centro de distribuição da Piticos Pet </figcaption>
+        </figure>
+     
+        <p>
+        Compre as roupas e acessórios para o seu bichinho de estimação na
+        Piticos Pet. Acesse nossa loja ou entre em contato se tiver dúvidas.
+        Conheça também nossa história e nossos diferenciais.
+		</p>
+ </div> 
+
+  <div class = "secao" id="secao1">
+     <h2 style ="color: rgb(255, 255, 255)"> História </h2>
+    
+       <p>
+         A história da <strong>Pitico Pet </strong> teve início há mais de três décadas, quando a
+         família <em>Nascimento</em>, apaixonada por animais, decidiu transformar sua
+         paixão em negócio. Com determinação e visão empreendedora, o
+         fundador, <em> Nelson Nascimento</em>, liderou a expansão da empresa desde os
+         primeiros dias. O nome <em>"Pitico"</em> é uma homenagem ao primeiro mascote
+         da família, um pequeno cãozinho de estimação que inspirou a jornada
+         empreendedora.
+       </p>
+        <figure>
+            <img src ="fig/familiaNascimento.png" width="350px">
+            <figcaption>Família Nascimento</figcaption>
+        </figure>
+
+        <p style="color: rgb(255, 255, 255)">
+            O crescimento da Pitico Pet foi notável desde sua fundação. Em apenas
+            dois anos, já atendíamos clientes em 10 estados brasileiros. Em uma
+            década, expandimos nossas operações para outros países da América do
+            Sul, consolidando nossa presença internacional. Hoje, a Pitico Pet tem o
+            privilégio de servir milhões de clientes em mais de 15 países, oferecendo
+            uma variedade de produtos que vai desde rações especiais até acessórios
+            de luxo para animais de estimação.
+        </p>
+
+        <p>
+            O número de colaboradores cresceu junto com nossa expansão.
+            Atualmente, somos uma das maiores empregadoras do setor pet no Brasil,
+            contando com uma equipe dedicada de mais de 5 mil profissionais. Além
+            disso, mantemos parcerias com milhares de fornecedores locais e
+            internacionais, contribuindo para a economia e desenvolvimento da
+            indústria pet em nosso país
+        </p>
+
+        <p>
+            A Pitico Pet tem sido reconhecida não apenas pelo seu sucesso
+            comercial, mas também pelo compromisso com causas sociais e
+            ambientais. Recebemos prêmios de reconhecimento por nossas iniciativas
+            sustentáveis e investimentos em programas de bem-estar animal. Nossa
+            loja já recebeu visitas de personalidades influentes, incluindo membros do
+            governo e celebridades que compartilham nossa paixão pelo universo pet.
+            Estamos comprometidos em continuar a oferecer os melhores produtos e
+            serviços para os nossos queridos amigos de quatro patas, mantendo
+            sempre o respeito e amor pelos animais no centro de nossas operações.
+        </p>
+ </div>
+  
+ 
+   <h2> Diferenciais </h2>
+  <ul>
+         <li> Menor preço do varejo, garantido</li>
+         <li>Se você achar uma loja mais barata, leva o produto de
+         graça</li>
+        <li> Eventos e Atividades Comunitárias </li>
+         <li>Programas de Fidelidade e Recompensas </li>
+        <li> Clínica Veterinária Integrada</li>
+  </ul>
+
+
+</body>
