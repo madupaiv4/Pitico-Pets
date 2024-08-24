@@ -116,15 +116,14 @@ body{
    
    
    
-   footer {
-     padding: 3px;
-     border-width: 1px;
-     border-style: ridge;
-     border-color: black;
-     background-image: linear-gradient(to right, rgb(25, 58, 41), #0130245d);   
-     bottom: 0;
-     position: fixed;
-     width: 100%;
-     text-align: center;
-   }
+    footer {
+      padding: 3px;
+      border-width: 1px;
+      border-style: ridge;
+      border-color: black;
+      background-image: linear-gradient(to right, rgb(25, 58, 41), #013024);   
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
    

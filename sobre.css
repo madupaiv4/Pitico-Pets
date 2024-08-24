@@ -88,14 +88,14 @@ body{
    .reacoes{
     font-weight: bolder;
    }
-footer {
+   footer {
+    padding: 3px;
     border-width: 1px;
     border-style: ridge;
     border-color: black;
-    background-image: linear-gradient(to right, rgb(25, 58, 41), #0130245d);   
+    background-image: linear-gradient(to right, rgb(25, 58, 41), #013024);   
     bottom: 0;
-    position: fixed;
+    width: 100%;
     text-align: center;
-    padding: 0px 30px;
   }
   
