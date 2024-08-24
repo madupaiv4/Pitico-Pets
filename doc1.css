@@ -97,7 +97,7 @@ body{
   }
   section p {
   margin:0;
-  padding: 5px 0px;
+  padding: 5px 5px;
  }
  
 
@@ -120,9 +120,9 @@ body{
   flex-direction:row;
   align-items: center;
   justify-content:space-between;
-  gap:100px;
+  gap:10%;
   margin: 0;
-  padding: 30% 0%;
+  padding: 10% 5%;
  }
  .local img {
   width: 300px;
@@ -130,6 +130,7 @@ body{
   }
 
 #adote-amor{
+  margin: auto;
   font-size:2.0em;
   padding-top:2.0em;
   padding-bottom:10px;
@@ -186,11 +187,12 @@ li{
   .local{
    flex-direction:column;
    gap: 10px;
+   padding: 5% 5%;
   
   }
 
   .local img{
-    flex-direction:column;
+  
     left: 0;
    }
   .inicio{
@@ -279,13 +281,13 @@ li{
 
     
   }
- }
+ 
 
 
 
 
 footer {
-  padding: 3px;
+  padding: 10px auto;
   border-width: 1px;
   border-style: ridge;
   border-color: black;
