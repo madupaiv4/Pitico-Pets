@@ -6,6 +6,7 @@
     --color-dark4: #1c1c1c;  
     --color-dark5: #343434;;
     --color-verdinho:#0f8356;
+    --color-verde:#033d27;
 }
 
 *{ 
@@ -17,19 +18,28 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   background-color:var(--color-dark1);
   color: var(--color-white);
-  padding:5%;
+  
   box-shadow: 1px 1px 4px var(--color-dark4);
   border-radius: 5px;
   font-size:1.3em;
   line-height: 1.5em;
 }
+
+
  a{
   color: rgb(115, 136, 255);
  }
 
  h2{
+  font-size:2.0em;
   margin: 10px 0px;
-  font-size: 21px;
+  padding-left: 5%;
+ }
+
+ h3{
+  color: var(--color-verde);
+  
+  font-size:20px;
  }
 
  figure{
@@ -46,7 +56,7 @@ body{
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-      padding: 0% 10%;   
+      padding: 0% 5%;   
   }
 
   header nav ul {
@@ -81,20 +91,14 @@ body{
 
   section{
   text-align: left;
+  margin:0;
+  padding: 30px 0px;
   }
   section p {
   margin:0;
-  padding: 10px 0px;
+  padding: 5px 0px;
  }
  
- 
-
- 
-
- section{
-  margin:0;
-  padding: 20px 0px;
- }
 
  .inicio{
   display:flex;
@@ -102,6 +106,7 @@ body{
   align-items: center;
   justify-content:space-between;
   gap:100px;
+  padding:5%;
  }
  
  .inicio img {
@@ -116,18 +121,38 @@ body{
   justify-content:space-between;
   gap:100px;
   margin: 0;
-  padding: 0;
+  padding:5%;
  }
  .local img {
   width: 300px;
   padding: 0px 0px
   }
 
+#adote-amor{
+  font-size:2.0em;
+  padding-top:2.0em;
+  padding-bottom:10px;
+  text-align: center;
+}
 
 .adote-amor{
+
+  background-color: var(--color-verdinho);
   display: flex;
   flex-direction: column;
+  padding:5%;
+  border-radius: 20px;
  
+}
+
+.adote-amor h2::after{
+  margin: 30px auto;
+  content:'';
+  width: 600px;
+  height: 5px;
+  background: currentColor;
+  display: block;
+  border-radius: 70px;
 }
 
 li{
@@ -166,6 +191,16 @@ li{
    flex-direction:column;
    gap: 10px;
   }
+
+  .adote-amor h2::after{
+    margin: 30px auto;
+    content:'';
+    width: 480px;
+    height: 5px;
+    background: currentColor;
+    display: block;
+    border-radius: 70px;
+  }
  }
 
  @media screen and (max-width:992) {
@@ -183,9 +218,8 @@ footer {
   border-width: 1px;
   border-style: ridge;
   border-color: black;
-  background-image: linear-gradient(to right, rgb(25, 58, 41), #0130245d);   
+  background-image: linear-gradient(to right, rgb(25, 58, 41), #013024);   
   bottom: 0;
-  position: fixed;
   width: 100%;
   text-align: center;
 }
