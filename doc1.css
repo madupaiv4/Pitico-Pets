@@ -216,6 +216,19 @@ li{
     display: block;
     border-radius: 70px;
   }
+  footer {
+    align-items: center;
+    text-align: center;
+  
+    padding: 70% auto;
+    border-width: 1px;
+    border-style: ridge;
+    border-color: black;
+    background-color: var(--color-verdinho);
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
  }
 
  @media screen and (max-width:992) {
@@ -285,6 +298,20 @@ li{
   display: block;
   border-radius: 70px;
 }
+footer {
+  align-items: center;
+  text-align: center;
+
+  padding: 70% auto;
+  border-width: 1px;
+  border-style: ridge;
+  border-color: black;
+  background-color: var(--color-verdinho);
+  bottom: 0;
+  width: 992px;
+  height: auto;
+}
+
 
     
   }
@@ -294,12 +321,15 @@ li{
 
 
 footer {
-  padding: 10px auto;
+  align-items: center;
+  text-align: center;
+
+  padding: 70% auto;
   border-width: 1px;
   border-style: ridge;
   border-color: black;
-  background-image: linear-gradient(to right, rgb(25, 58, 41), #013024);   
+  background-color: var(--color-verdinho);
   bottom: 0;
   width: 100%;
-  text-align: center;
+  height: auto;
 }
