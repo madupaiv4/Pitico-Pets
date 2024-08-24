@@ -20,16 +20,23 @@ body{
   padding: 5%;
   box-shadow: 1px 1px 4px var(--color-dark4);
   border-radius: 5px;
+  font-size:1.3em;
+  line-height: 1.5em;
 }
  a{
   color: rgb(115, 136, 255);
  }
 
+ h2{
+  padding: 20px 0px;
+ }
+
   header nav {
+     
       background-color:var(--color-dark2);
       box-shadow: 1px 1px 4px var(--color-dark4);
       height: 3.5em;
-
+     
       display:flex;
       flex-direction: row;
       align-items: center;
@@ -71,17 +78,22 @@ body{
     }
     }
 
-   
     
+   section{
+    padding:20px;
+   }
+
+   .reacoes{
+    font-weight: bolder;
+   }
 footer {
-    padding: 3px;
     border-width: 1px;
     border-style: ridge;
     border-color: black;
     background-image: linear-gradient(to right, rgb(25, 58, 41), #0130245d);   
     bottom: 0;
     position: fixed;
-    width: 100%;
     text-align: center;
+    padding: 0px 30px;
   }
   

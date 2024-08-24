@@ -20,6 +20,8 @@ body{
   padding:5%;
   box-shadow: 1px 1px 4px var(--color-dark4);
   border-radius: 5px;
+  font-size:1.3em;
+  line-height: 1.5em;
 }
  a{
   color: rgb(115, 136, 255);
@@ -169,7 +171,7 @@ li{
  @media screen and (max-width:992) {
   
   body{
-    font-size: 100px;
+    
   }
  }
 
