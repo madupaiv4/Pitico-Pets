@@ -34,9 +34,9 @@ body{
   font-size:2.0em;
   line-height: 1.5em;
   margin: 10px 0px;
-  padding-left: 5%;
  }
 
+ 
  h3{
   color: var(--color-verde);
   
@@ -115,30 +115,37 @@ body{
  padding: 0px 0px
  }
 
- .local{
+ section .local{
   display:flex;
   flex-direction:row;
   align-items: center;
   justify-content:space-between;
   gap:10%;
   margin: 0;
-  padding: 10% 5%;
+  padding: 5%;
  }
  .local img {
   width: 300px;
   padding: 0px 0px
   }
 
-#adote-amor{
+#adote-amor{ 
+  display: block;
+  text-align: center;
   margin: auto;
   font-size:2.0em;
   padding-top:2.0em;
   padding-bottom:10px;
-  text-align: center;
 }
-
+/* .center{
+  width: 70%;
+  align-items: center;
+  
+  padding: 10% 0%;
+  background-color: #343434;
+} */
 .adote-amor{
-
+  align-items: center;
   background-color: var(--color-verdinho);
   display: flex;
   flex-direction: column;
@@ -150,7 +157,7 @@ body{
 .adote-amor h2::after{
   margin: 30px auto;
   content:'';
-  width: 89%;
+  width: 500px;
   height: 5px;
   background: currentColor;
   display: block;
